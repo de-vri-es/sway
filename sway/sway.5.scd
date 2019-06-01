@@ -232,6 +232,14 @@ set|plus|minus <amount>
 	A no operation command that can be used to override default behaviour. The
 	optional comment argument is ignored, but logged for debugging purposes.
 
+*pull* workspace <name-or-id>
+	Pull a workspace to the focussed output. If the workspace was on a
+	different output, the current workspace is sent to that output.
+
+*pull* output <name>
+	Pull the active workspace of an output to the focussed output. The current
+	workspace is sent to the output being pulled from.
+
 *reload*
 	Reloads the sway config file and applies any changes.
 
